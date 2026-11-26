@@ -5,3 +5,4 @@ bin/
 *.iml
 config.properties
 rag-verctor-store.json
+/.vscode/

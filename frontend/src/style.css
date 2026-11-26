@@ -1,0 +1,22 @@
+/*全局基础样式：去掉浏览器默认的边距，统一字体和盒模型*/
+* {
+  box-sizing: border-box; /*padding/border算进宽度里，布局不会莫名溢出*/
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Microsoft YaHei",
+    sans-serif;
+  color: #1f2358;
+  background: #f6f8fa;
+}
+
+/*让按钮、输入框继承body的字体(浏览器莫仍认为它们用系统控件字体)*/
+button,
+input,
+textarea {
+  font-family: inherit;
+}
